@@ -59,27 +59,22 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": ";",
-    "command": "workbench.action.quickOpen",
-    "when": "editorTextFocus || !inputFocus"
-  },
-  {
     "key": "f11",
     "command": "workbench.action.toggleZenMode",
     "when": "!isAuxiliaryWindowFocusedContext"
   },
   {
-    "key": "ctrl+k z",
+    "key": "f11",
     "command": "-workbench.action.toggleZenMode",
     "when": "!isAuxiliaryWindowFocusedContext"
   },
   {
-    "key": "ctrl+k z",
+    "key": "ctrl-f11",
     "command": "workbench.action.toggleFullScreen",
     "when": "!isIOS"
   },
   {
-    "key": "f11",
+    "key": "ctrl-f11",
     "command": "-workbench.action.toggleFullScreen",
     "when": "!isIOS"
   },
@@ -196,6 +191,11 @@
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
+    "key": "shift-a",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
     "key": "s",
     "command": "explorer.openToSide",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
@@ -253,5 +253,9 @@
     "key": "space d c",
     "command": "workbench.action.debug.continue",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && inDebugMode && debugState == 'stopped'"
+  },
+  {
+    "key": "ctrl+shift+delete",
+    "command": "workbench.action.terminal.kill"
   }
 ]
