@@ -49,12 +49,12 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "s h",
+    "key": "space \\",
     "command": "workbench.action.splitEditor",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "s v",
+    "key": "space -",
     "command": "workbench.action.splitEditorDown",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
