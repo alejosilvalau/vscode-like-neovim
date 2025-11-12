@@ -35,12 +35,13 @@
   "vim.handleKeys": {
     "<C-c>": false,
     "<C-v>": false,
+    "<C-x>": false,
     "<C-a>": false,
     "<C-f>": false,
     "<C-w>": false
   },
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false
@@ -56,11 +57,11 @@
   "editor.stickyScroll.enabled": false,
   "zenMode.centerLayout": false,
   "window.customTitleBarVisibility": "windowed",
-  "window.menuBarVisibility": "compact",
   "zenMode.showTabs": "none",
   "zenMode.hideStatusBar": false,
   "editor.formatOnSave": true,
   "settingsSync.keybindingsPerPlatform": false,
   "window.newWindowProfile": "Default",
-  "workbench.colorTheme": "Ayu Dark"
+  "workbench.colorTheme": "Ayu Dark",
+  "window.menuBarVisibility": "compact"
 }
