@@ -348,6 +348,11 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
+    "key": "space g S",
+    "command": "git.sync",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
     "key": "space g u",
     "command": "git.unstage",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
