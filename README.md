@@ -79,9 +79,9 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `ctrl+space g g`: Toggle SCM sidebar
 - `space g c`: Commit
 - `space g p`: Push
-- `space g P`: Pull
+- `space g shift+p`: Pull
 - `space g s`: Stage
-- `space g S`: Sync
+- `space g shift+s`: Sync
 - `space g u`: Unstage
 - `space g b`: Branch
 - `space g o`: Checkout

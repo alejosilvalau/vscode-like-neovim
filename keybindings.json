@@ -338,7 +338,7 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space g P",
+    "key": "space g shift+p",
     "command": "git.pull",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
@@ -348,7 +348,7 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space g S",
+    "key": "space g shift+s",
     "command": "git.sync",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
