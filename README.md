@@ -15,7 +15,7 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `space ,`: Show all editors
 - `space e`: Toggle sidebar & focus explorer
 - `ctrl+space e`: Toggle sidebar and return to editor
-- `space \\`: Split editor
+- `space \`: Split editor
 - `space -`: Split editor down
 - `f11`: Toggle Zen Mode
 - `ctrl-f11`: Toggle Full Screen
