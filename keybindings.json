@@ -18,19 +18,23 @@
   },
   {
     "key": "ctrl-left",
-    "command": "workbench.action.navigateLeft"
+    "command": "workbench.action.navigateLeft",
+    "when": "vim.mode == 'Normal'"
   },
   {
     "key": "ctrl-right",
-    "command": "workbench.action.navigateRight"
+    "command": "workbench.action.navigateRight",
+    "when": "vim.mode == 'Normal'"
   },
   {
     "key": "ctrl-up",
-    "command": "workbench.action.navigateUp"
+    "command": "workbench.action.navigateUp",
+    "when": "vim.mode == 'Normal'"
   },
   {
     "key": "ctrl-down",
-    "command": "workbench.action.navigateDown"
+    "command": "workbench.action.navigateDown",
+    "when": "vim.mode == 'Normal'"
   },
   {
     "key": "space ,",
