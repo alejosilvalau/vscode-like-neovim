@@ -49,7 +49,7 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !sideBarFocus"
   },
   {
-    "key": "space e",
+    "key": "ctrl+space e",
     "command": "runCommands",
     "args": {
       "commands": [
@@ -274,6 +274,11 @@
 
   // Terminal
   {
+    "key": "ctrl+space t t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
     "key": "space t t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
@@ -317,6 +322,10 @@
     "args": {
       "commands": ["workbench.view.scm", "workbench.scm.focus"]
     }
+  },
+  {
+    "key": "ctrl+space g g",
+    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
     "key": "space g c",
@@ -374,6 +383,11 @@
     "key": "space a a",
     "command": "workbench.action.chat.open",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "ctrl+space a a",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
   },
   {
     "key": "space a i",
