@@ -288,33 +288,28 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space t n",
+    "key": "ctrl+space t n",
     "command": "workbench.action.terminal.new",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space t k",
+    "key": "ctrl+space t d",
     "command": "workbench.action.terminal.kill",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space t j",
+    "key": "ctrl+space t j",
     "command": "workbench.action.terminal.focusNext",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space t h",
+    "key": "ctrl+space t k",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space t s",
+    "key": "ctrl+space t s",
     "command": "workbench.action.terminal.split",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
-    "key": "space t f",
-    "command": "workbench.action.terminal.focus",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
 
