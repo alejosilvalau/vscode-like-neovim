@@ -50,7 +50,7 @@
         "workbench.files.action.focusFilesExplorer"
       ]
     },
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !sideBarFocus"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !sideBarFocus) || (!activeEditor && !inputFocus && !sideBarFocus)"
   },
   {
     "key": "ctrl+space e",
@@ -143,12 +143,12 @@
   {
     "key": "space space",
     "command": "workbench.action.quickOpen",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)"
   },
   {
     "key": ";",
     "command": "workbench.action.showCommands",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || || (!activeEditor && !inputFocus)"
   },
   {
     "key": "space g d",
@@ -244,7 +244,7 @@
   {
     "key": "space d a",
     "command": "workbench.action.debug.selectandstart",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && debuggersAvailable"
+    "when": "((vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)) && debuggersAvailable"
   },
   {
     "key": "space d t",
@@ -285,7 +285,7 @@
   {
     "key": "space t t",
     "command": "workbench.action.terminal.toggleTerminal",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)"
   },
   {
     "key": "ctrl+space t n",
@@ -317,7 +317,7 @@
   {
     "key": "space g g",
     "command": "runCommands",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)",
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)",
     "args": {
       "commands": ["workbench.view.scm", "workbench.scm.focus"]
     }
@@ -386,7 +386,7 @@
   {
     "key": "space a a",
     "command": "workbench.action.chat.open",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)"
   },
   {
     "key": "ctrl+space a a",
