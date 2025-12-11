@@ -69,5 +69,6 @@
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
   "tailwindCSS.lint.cssConflict": "warning",
-  "tailwindCSS.lint.invalidApply": "warning"
+  "tailwindCSS.lint.invalidApply": "warning",
+  "workbench.startupEditor": "newUntitledFile"
 }
