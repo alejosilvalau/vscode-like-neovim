@@ -8,10 +8,10 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 
 ### Navigation
 
-- `ctrl-h` / `ctrl-left`: Move left
-- `ctrl-l` / `ctrl-right`: Move right
-- `ctrl-k` / `ctrl-up`: Move up
-- `ctrl-j` / `ctrl-down`: Move down
+- `ctrl-h` / `ctrl-alt-left`: Move left
+- `ctrl-l` / `ctrl-alt-right`: Move right
+- `ctrl-k` / `ctrl-alt-up`: Move up
+- `ctrl-j` / `ctrl-alt-down`: Move down
 - `space ,`: Show all editors
 - `space e`: Toggle sidebar & focus explorer
 - `ctrl+space e`: Toggle sidebar and return to editor

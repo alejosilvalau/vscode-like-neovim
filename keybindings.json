@@ -17,22 +17,22 @@
     "command": "workbench.action.navigateDown"
   },
   {
-    "key": "ctrl-left",
+    "key": "ctrl-alt-left",
     "command": "workbench.action.navigateLeft",
     "when": "vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl-right",
+    "key": "ctrl-alt-right",
     "command": "workbench.action.navigateRight",
     "when": "vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl-up",
+    "key": "ctrl-alt-up",
     "command": "workbench.action.navigateUp",
     "when": "vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl-down",
+    "key": "ctrl-alt-down",
     "command": "workbench.action.navigateDown",
     "when": "vim.mode == 'Normal'"
   },
