@@ -5,6 +5,14 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - The breadcrumbs of the file that you are working on
 - The tabs bar
 
+## Required Extensions
+
+- [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Ayu Theme](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+
 ## Keybindings Summary
 
 ### Navigation

@@ -65,9 +65,5 @@
   "workbench.colorTheme": "Ayu Dark Bordered",
   "window.menuBarVisibility": "compact",
   "cSpell.language": "en,en-GB,es-ES,en-CA",
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
-  "tailwindCSS.lint.cssConflict": "warning",
-  "tailwindCSS.lint.invalidApply": "warning",
   "workbench.startupEditor": "newUntitledFile"
 }
