@@ -138,7 +138,7 @@
   {
     "key": "space c shift-f",
     "command": "workbench.view.search",
-    "when": "vim.mode == 'Normal' && editorTextFocus"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !sideBarFocus) || (!activeEditor && !inputFocus && !sideBarFocus)"
   },
   {
     "key": "ctrl+space c shift-f",
