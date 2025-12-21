@@ -25,6 +25,9 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `space c a`: Code actions
 - `space c r`: Rename symbol
 - `space c s`: Go to symbol
+- `space c f`: Find in file
+- `space c shift-f`: Toggle search sidebar
+- `ctrl+space c shift-f`: Toggle sidebar & focus on explorer
 - `space b d`: Close active editor
 - `space b o`: Close other editors
 - `space space`: Quick open
@@ -92,6 +95,7 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 
 - `space a a`: Open Copilot Chat
 - `ctrl+space a a`: Toggle Copilot Chat panel when active
+- `space a n`: Open Copilot Chat with new Chat
 - `space a i`: Inline chat
 - `space a e`: Open edit session
 - `space a c`: Generate code
