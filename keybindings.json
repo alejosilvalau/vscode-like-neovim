@@ -64,7 +64,7 @@
     "when": "sideBarFocus && !inputFocus"
   },
   {
-    "key": "space e",
+    "key": "ctrl+space e",
     "when": "vim.mode == 'Normal' && editorTextFocus && foldersViewVisible",
     "command": "workbench.action.toggleSidebarVisibility"
   },
@@ -131,6 +131,20 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
+    "key": "space c f",
+    "command": "actions.find",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "space c shift-f",
+    "command": "workbench.view.search",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "ctrl+space c shift-f",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
     "key": "space b d",
     "command": "workbench.action.closeActiveEditor",
     "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
@@ -148,7 +162,7 @@
   {
     "key": ";",
     "command": "workbench.action.showCommands",
-    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || || (!activeEditor && !inputFocus)"
+    "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)"
   },
   {
     "key": "space g d",
@@ -396,6 +410,11 @@
   {
     "key": "space a i",
     "command": "inlineChat.start",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "space a n",
+    "command": "workbench.action.chat.newChat",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
