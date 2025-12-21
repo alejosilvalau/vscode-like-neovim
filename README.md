@@ -3,6 +3,7 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - The full-width editor
 - The status bar
 - The breadcrumbs of the file that you are working on
+- The tabs bar
 
 ## Keybindings Summary
 
