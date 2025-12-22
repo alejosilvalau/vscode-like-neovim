@@ -51,7 +51,7 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `shift-j` (VisualLine): Move line down
 - `shift-k` (VisualLine): Move line up
 
-### File Explorer
+### File Explorer (These work when explorer is focused)
 
 - `r`: Rename file
 - `c`: Copy file
@@ -78,11 +78,11 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 
 - `space t t`: Toggle terminal
 - `ctrl+space t t`: Toggle terminal when terminal is active
-- `ctrl+space t n` / `space t n`: New terminal
-- `ctrl+space t d` / `space t d`: Kill terminal
-- `ctrl+space t j` / `space t j`: Focus next terminal
-- `ctrl+space t k` / `space t k`: Focus previous terminal
-- `ctrl+space t s` / `space t s`: Split terminal
+- `space t n` / `ctrl+space t n`: New terminal
+- `space t d` / `ctrl+space t d`: Kill terminal
+- `space t j` / `ctrl+space t j`: Focus next terminal
+- `space t k` / `ctrl+space t k`: Focus previous terminal
+- `space t s` / `ctrl+space t s`: Split terminal
 
 ### Git
 
