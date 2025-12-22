@@ -78,11 +78,11 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 
 - `space t t`: Toggle terminal
 - `ctrl+space t t`: Toggle terminal when terminal is active
-- `ctrl+space t n`: New terminal
-- `ctrl+space t d`: Kill terminal
-- `ctrl+space t j`: Focus next terminal
-- `ctrl+space t k`: Focus previous terminal
-- `ctrl+space t s`: Split terminal
+- `ctrl+space t n` / `space t n`: New terminal
+- `ctrl+space t d` / `space t d`: Kill terminal
+- `ctrl+space t j` / `space t j`: Focus next terminal
+- `ctrl+space t k` / `space t k`: Focus previous terminal
+- `ctrl+space t s` / `space t s`: Split terminal
 
 ### Git
 
