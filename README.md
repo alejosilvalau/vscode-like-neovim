@@ -106,6 +106,9 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `space a a`: Open Copilot Chat
 - `ctrl+space a a`: Close Copilot Chat panel when active
 - `space a n` / `ctrl+space a n`: Open Copilot Chat with new Chat
+- `ctrl+space a m`: Open model picker
+- `ctrl+space a e`: Open mode picker
+- `ctrl+space a f`: Attach file to chat
 - `space a i`: Inline chat
 - `space a c`: Generate code
 - `space a f`: Fix code

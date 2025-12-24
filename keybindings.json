@@ -454,6 +454,21 @@
     "when": "(vim.mode == 'Normal' && editorTextFocus)|| workbench.panel.chat.view.copilot.active"
   },
   {
+    "key": "ctrl+space a m",
+    "command": "workbench.action.chat.openModelPicker",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+space a e",
+    "command": "workbench.action.chat.openModePicker",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+space a f",
+    "command": "workbench.action.chat.attachContext",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || workbench.panel.chat.view.copilot.active"
+  },
+  {
     "key": "space a c",
     "command": "github.copilot.generate",
     "when": "vim.mode == 'Normal' && editorTextFocus"
