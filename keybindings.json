@@ -292,14 +292,14 @@
 
   // Terminal
   {
-    "key": "ctrl+space t t",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
     "key": "space t t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)"
+  },
+  {
+    "key": "ctrl+space t t",
+    "command": "workbench.action.closePanel",
+    "when": "terminal.active"
   },
   {
     "key": "ctrl+space t n",
@@ -429,7 +429,7 @@
   },
   {
     "key": "ctrl+space a a",
-    "command": "workbench.panel.chat",
+    "command": "workbench.action.closeAuxiliaryBar",
     "when": "workbench.panel.chat.view.copilot.active"
   },
   {
@@ -441,6 +441,11 @@
     "key": "space a n",
     "command": "workbench.action.chat.newChat",
     "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "ctrl+space a n",
+    "command": "workbench.action.chat.newChat",
+    "when": "(vim.mode == 'Normal' && editorTextFocus)|| workbench.panel.chat.view.copilot.active"
   },
   {
     "key": "space a e",

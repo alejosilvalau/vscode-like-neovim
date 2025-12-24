@@ -23,7 +23,7 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `ctrl-j` / `ctrl-alt-down`: Move down
 - `space ,`: Show all editors
 - `space e`: Toggle sidebar & focus explorer
-- `ctrl+space e`: Toggle sidebar and return to editor
+- `ctrl+space e`: Close sidebar and return to editor
 - `space \`: Split editor
 - `space -`: Split editor down
 - `f11`: Toggle Zen Mode
@@ -77,7 +77,7 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 ### Terminal
 
 - `space t t`: Toggle terminal
-- `ctrl+space t t`: Toggle terminal when terminal is active
+- `ctrl+space t t`: Close terminal when terminal is active
 - `space t n` / `ctrl+space t n`: New terminal
 - `space t d` / `ctrl+space t d`: Kill terminal
 - `space t j` / `ctrl+space t j`: Focus next terminal
@@ -103,8 +103,8 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 ### AI / Copilot
 
 - `space a a`: Open Copilot Chat
-- `ctrl+space a a`: Toggle Copilot Chat panel when active
-- `space a n`: Open Copilot Chat with new Chat
+- `ctrl+space a a`: Close Copilot Chat panel when active
+- `space a n` / `ctrl+space a n`: Open Copilot Chat with new Chat
 - `space a i`: Inline chat
 - `space a e`: Open edit session
 - `space a c`: Generate code
