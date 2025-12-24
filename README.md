@@ -39,6 +39,9 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `ctrl+space c shift-f`: Toggle sidebar & focus on explorer
 - `space b d`: Close active editor
 - `space b o`: Close other editors
+- `space b a`: Close all editors
+- `space b l`: Next editor
+- `space b h`: Previous editor
 - `space space`: Quick open
 - `;`: Show command palette
 - `space g d`: Go to definition

@@ -155,6 +155,21 @@
     "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
   },
   {
+    "key": "space b a",
+    "command": "workbench.action.closeAllEditors",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+  },
+  {
+    "key": "space b h",
+    "command": "workbench.action.previousEditor",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+  },
+  {
+    "key": "space b l",
+    "command": "workbench.action.nextEditor",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+  },
+  {
     "key": "space space",
     "command": "workbench.action.quickOpen",
     "when": "(vim.mode == 'Normal' && (editorTextFocus || !inputFocus)) || (!activeEditor && !inputFocus)"
