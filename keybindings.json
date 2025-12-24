@@ -300,10 +300,6 @@
     "command": "workbench.action.debug.continue",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && inDebugMode && debugState == 'stopped'"
   },
-  {
-    "key": "ctrl+shift+delete",
-    "command": "workbench.action.terminal.kill"
-  },
 
   // Terminal
   {
@@ -430,11 +426,6 @@
     "command": "git.merge",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
-  {
-    "key": "space g l",
-    "command": "git.viewHistory",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
 
   // AI / Copilot
   {
@@ -463,33 +454,28 @@
     "when": "(vim.mode == 'Normal' && editorTextFocus)|| workbench.panel.chat.view.copilot.active"
   },
   {
-    "key": "space a e",
-    "command": "workbench.action.chat.openEditSession",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
     "key": "space a c",
     "command": "github.copilot.generate",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
     "key": "space a f",
-    "command": "workbench.action.chat.fix",
+    "command": "github.copilot.chat.fix",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
     "key": "space a x",
-    "command": "workbench.action.chat.explain",
+    "command": "github.copilot.chat.explain",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
     "key": "space a d",
-    "command": "workbench.action.chat.generateDocs",
+    "command": "github.copilot.chat.generateDocs",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
     "key": "space a t",
-    "command": "workbench.action.chat.generateTests",
+    "command": "github.copilot.chat.generateTests",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   }
 ]

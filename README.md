@@ -75,7 +75,6 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `space d b`: Toggle breakpoint
 - `space d e`: Show debug hover
 - `space d c`: Continue debug
-- `ctrl+shift+delete`: Kill terminal
 
 ### Terminal
 
@@ -101,7 +100,6 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `space g o`: Checkout
 - `space g f`: Fetch
 - `space g m`: Merge
-- `space g l`: View history
 
 ### AI / Copilot
 
@@ -109,7 +107,6 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `ctrl+space a a`: Close Copilot Chat panel when active
 - `space a n` / `ctrl+space a n`: Open Copilot Chat with new Chat
 - `space a i`: Inline chat
-- `space a e`: Open edit session
 - `space a c`: Generate code
 - `space a f`: Fix code
 - `space a x`: Explain code
