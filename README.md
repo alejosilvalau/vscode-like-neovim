@@ -47,7 +47,6 @@ This config is meant to be used with F11 enabled all the time, which puts you on
 - `space g d`: Go to definition
 - `space g r`: Go to references
 - `space g i`: Go to implementation
-- `space s g`: Find in files
 - `ctrl-n`: Add selection to next find match
 - `j` (Visual): Move line down
 - `k` (Visual): Move line up

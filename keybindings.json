@@ -195,11 +195,6 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space s g",
-    "command": "workbench.action.findInFiles",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
     "key": "ctrl-n",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
