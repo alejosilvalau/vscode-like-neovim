@@ -65,8 +65,8 @@
   },
   {
     "key": "ctrl+space e",
-    "when": "vim.mode == 'Normal' && editorTextFocus && foldersViewVisible",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "(vim.mode == 'Normal' && editorTextFocus && foldersViewVisible) || (!activeEditor && !inputFocus && !sideBarFocus)"
   },
   {
     "key": "space \\",
